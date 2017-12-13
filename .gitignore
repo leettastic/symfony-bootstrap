@@ -1,0 +1,8 @@
+.env
+.web-server-pid
+/node_modules/
+/public/bundles/
+/public/css/
+/public/js/
+/var/
+/vendor/

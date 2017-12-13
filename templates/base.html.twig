@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Welcome</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="{{ asset('css/vendor.min.css') }}">
+        {% block stylesheets %}
+        <style>
+            .starter-template {
+                padding: 8rem 1.5rem;
+                text-align: center;
+            }
+        </style>
+        {% endblock %}
+    </head>
+    <body>
+        {% block body %}
+        <main role="main" class="container">
+            <div class="starter-template">
+                <h1>Symfony 4 &amp; Bootstrap 4 starter template</h1>
+                <p class="lead">Use this document as a way to quickly start any new project.</p>
+            </div>
+        </main>
+        {% endblock %}
+        <script src="{{ asset('js/vendor.min.js') }}"></script>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
+
